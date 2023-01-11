@@ -20,7 +20,7 @@ namespace КП
 
         public Array_Unit Set(Grid Window,Animator.Point point, int Width)
         {
-            //this.Arr_Element = new TextBox();
+            this.Arr_Element = new TextBox();
             this.Arr_Element.TextWrapping = TextWrapping.Wrap;
             this.Arr_Element.Width = Width;
             this.Arr_Element.Height = 40;
