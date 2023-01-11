@@ -1,0 +1,60 @@
+﻿<Window x:Class="КП.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:КП"
+        mc:Ignorable="d"
+        Title="Сортировка слиянием" Height="494" Width="800" Background="#FFD3DEE5">
+
+    <Grid x:Name="Window" Background="#FFE4E8F9">
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Menu Height="25" VerticalAlignment="Top">
+            <MenuItem x:Name="Instruction" Header="Инструкция" Click="Instruction_Click"/>
+            <MenuItem Header="Выбрать другую сортировку" >
+                <Button x:Name="Change_To_Fast" Content="Быстрая сортировка" Click="Fast_Sort_Button"/>
+                <Button x:Name="Change_To_Merge" Content="Cортировка слиянием" Click="Merge_Sort_Button"/>
+            </MenuItem>
+        </Menu>
+        <Grid x:Name="ToolBox_Pannel" Margin="10,0,10,10" Height="76" VerticalAlignment="Bottom">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Label x:Name="Array_Count_Instruction_Label" Content="Количество элемнетов:" Margin="0,0,0,9"  Width="163" Height="31" VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="14" />
+            <ComboBox x:Name="Array_length"  Margin="163,0,0,13" SelectedItem="{Binding ElementName=comboBoxItem, Mode=OneWay}" VerticalAlignment="Bottom" Height="22" HorizontalAlignment="Left" Width="47"  >
+                <ComboBoxItem x:Name="comboBoxItem" Content="2"/>
+                <ComboBoxItem  Content="3"/>
+                <ComboBoxItem Content="4"/>
+                <ComboBoxItem Content="5"/>
+                <ComboBoxItem Content="6"/>
+                <ComboBoxItem Content="7"/>
+                <ComboBoxItem Content="8"/>
+                <ComboBoxItem Content="9"/>
+                <ComboBoxItem Content="10"/>
+                <ComboBoxItem Content="11"/>
+                <ComboBoxItem Content="12"/>
+                <ComboBoxItem Content="13"/>
+                <ComboBoxItem Content="14"/>
+                <ComboBoxItem Content="15"/>
+            </ComboBox>
+            <Label x:Name="ToolBox_Label" Content="Панель инструментов" Margin="0,0,0,45" HorizontalAlignment="Left" Width="131" Height="25" VerticalAlignment="Bottom"/>
+            <TextBox x:Name="Speed_TextBox" Margin="313,0,0,12" TextWrapping="Wrap" Text="400" VerticalAlignment="Bottom" Height="22" HorizontalAlignment="Left" Width="70" FontSize="14" TextChanged="Censor"/>
+            <Label x:Name="Speed" Content="Скорость :"  Margin="225,0,0,6" FontSize="14" Height="33" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="83" />
+        </Grid>
+        <Button x:Name="Stop_Button" Content="Остановить&#xD;&#xA; сортировку" Margin="0,0,144,20"  Height="56" Background="#FFE4E8F9" BorderBrush="#FFAAABB0" Click="Stop_Button_Click" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="115"/>
+        <StackPanel Orientation="Horizontal" Margin="10,30,10,425" ScrollViewer.HorizontalScrollBarVisibility="Visible" CanHorizontallyScroll="True" CanVerticallyScroll="True">
+            <StackPanel.ScrollOwner>
+                <ScrollViewer/>
+            </StackPanel.ScrollOwner>
+        </StackPanel>
+        <Grid x:Name="Sort_Table" Margin="10,30,10,91">
+            <Image x:Name="I_Image" HorizontalAlignment="Left" Height="34" Margin="298,72,0,0" VerticalAlignment="Top" Width="32" Source="/I.png" Stretch="Fill" Panel.ZIndex="1" Visibility="Hidden"/>
+            <Image x:Name="J_Image" HorizontalAlignment="Center" Height="34" Margin="0,72,0,0" VerticalAlignment="Top" Width="32" Source="/j.png" Stretch="Fill" Panel.ZIndex="1" Visibility="Hidden"/>
+        </Grid>
+        <Button x:Name="Resume_Button" Content="Продолжить &#xD;&#xA;сортировку" Margin="0,0,264,20"  Height="56" Background="#FFE4E8F9" BorderBrush="#FFAAABB0" Click="Resume_Button_Click" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="115"/>
+        <Button x:Name="Sort_Start" Content="Начать сортировку" Margin="0,0,24,20"  Height="56" Background="#FFE4E8F9" BorderBrush="#FFAAABB0" Click="Merge" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="115"/>
+    </Grid>
+</Window>

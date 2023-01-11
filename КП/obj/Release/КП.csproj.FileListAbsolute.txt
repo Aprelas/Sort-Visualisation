@@ -1,0 +1,16 @@
+C:\Users\kamsh\Desktop\Архив ПВКС\3 курс\Курсач\КП\КП\bin\Release\КП.exe.config
+C:\Users\kamsh\Desktop\Архив ПВКС\3 курс\Курсач\КП\КП\bin\Release\КП.exe
+C:\Users\kamsh\Desktop\Архив ПВКС\3 курс\Курсач\КП\КП\bin\Release\КП.pdb
+C:\Users\kamsh\Desktop\Архив ПВКС\3 курс\Курсач\КП\КП\obj\Release\КП.csproj.AssemblyReference.cache
+C:\Users\kamsh\Desktop\Архив ПВКС\3 курс\Курсач\КП\КП\obj\Release\КП.csproj.SuggestedBindingRedirects.cache
+C:\Users\kamsh\Desktop\Архив ПВКС\3 курс\Курсач\КП\КП\obj\Release\MainWindow.g.cs
+C:\Users\kamsh\Desktop\Архив ПВКС\3 курс\Курсач\КП\КП\obj\Release\App.g.cs
+C:\Users\kamsh\Desktop\Архив ПВКС\3 курс\Курсач\КП\КП\obj\Release\КП_MarkupCompile.cache
+C:\Users\kamsh\Desktop\Архив ПВКС\3 курс\Курсач\КП\КП\obj\Release\КП_MarkupCompile.lref
+C:\Users\kamsh\Desktop\Архив ПВКС\3 курс\Курсач\КП\КП\obj\Release\MainWindow.baml
+C:\Users\kamsh\Desktop\Архив ПВКС\3 курс\Курсач\КП\КП\obj\Release\КП.g.resources
+C:\Users\kamsh\Desktop\Архив ПВКС\3 курс\Курсач\КП\КП\obj\Release\КП.Properties.Resources.resources
+C:\Users\kamsh\Desktop\Архив ПВКС\3 курс\Курсач\КП\КП\obj\Release\КП.csproj.GenerateResource.cache
+C:\Users\kamsh\Desktop\Архив ПВКС\3 курс\Курсач\КП\КП\obj\Release\КП.csproj.CoreCompileInputs.cache
+C:\Users\kamsh\Desktop\Архив ПВКС\3 курс\Курсач\КП\КП\obj\Release\КП.exe
+C:\Users\kamsh\Desktop\Архив ПВКС\3 курс\Курсач\КП\КП\obj\Release\КП.pdb
